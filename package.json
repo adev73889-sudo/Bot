@@ -1,0 +1,24 @@
+{
+  "name": "yama-discord-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Yama Discord bot: AI chat, moderation, verification captcha, staff tools",
+  "scripts": {
+    "start": "tsx bot.ts",
+    "check": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "dotenv": "^17.2.3",
+    "firebase": "^13.0.0",
+    "tsx": "^4.23.15"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "^5.9.0"
+  }
+}
